@@ -1,0 +1,943 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Calibri, sans-serif;
+}
+
+nav {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-1 {
+    margin-left: 8vw;
+}
+
+.nav-1 a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+
+.nav-1 a i {
+    margin-right: 5px;
+}
+
+.nav-2 {
+    margin-left: 15vw;
+}
+
+.nav-2 ul {
+    width: 28vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-2 ul li {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.nav-2 ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-3 {
+    margin-right: 8vw;
+}
+
+.nav-3 button {
+    width: 130px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0ba876;
+    color: #f3f5f9;
+    border: white;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    margin-left: 8vw;
+}
+
+#kiri {
+    width: 50vw;
+    margin-top: 10vh;
+}
+
+#kiri .judul {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+#kiri .judul h1 a {
+    text-decoration: none;
+    color: #0ba876;
+}
+
+#kiri .desc {
+    width: 40vw;
+    margin-top: 5vh;
+}
+
+#kiri .order {
+    width: 30vw;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#kiri .order .order1 {
+    background-color: #0ba876;
+    width: 130px;
+    height: 35px;
+    color: #f3f5f9;
+    border: white;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#kiri .order .order2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febb28;
+    width: 160px;
+    height: 35px;
+    border: white;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    font-weight: bold;
+}
+
+#kiri .order .order2 i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 55px;
+    background-color: #f3f5f9;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+#kanan {
+    width: 50vw;
+}
+
+#kanan img {
+    margin-top: 3vh;
+    height: 60vh;
+}
+
+footer {
+    margin-left: 8vw;
+    margin-right: 8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kotak-1 {
+    margin-top: 3vh;
+    width: 14vw;
+    padding: 13px;
+    cursor: pointer;
+}
+
+.kotak-1:hover {
+    background-color: #a5a4a425;
+    border-radius: 0.5rem;
+}
+
+.kotak-1 p {
+    margin-top: 1.5vh;
+}
+
+.kotak {
+    margin-top: 5vh;
+    width: 13vw;
+    padding: 13px;
+    cursor: pointer;
+}
+
+.kotak:hover {
+    background-color: #a5a4a425;
+    border-radius: 0.5rem;
+}
+
+.kotak p {
+    margin-top: 1.5vh;
+}
+
+#dua {
+    background-color: #f3f2f2be;
+    height: 100vh;
+}
+
+.travel {
+    margin-top: 3vh;
+    margin-left: 8vw;
+}
+
+.travel ul {
+    width: 84vw;
+    height: 10vh;
+    padding-top: 9vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.travel ul li {
+    list-style-type: none;
+}
+
+.travel ul li img {
+    width: 12vw;
+    height: 7vh;
+}
+
+.judul-2 {
+    margin-top: 12vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.judul-2 h3 {
+    color: #0ba876;
+    font-size: 26px;
+}
+
+.judul-2 img {
+    width: 25px;
+    height: 25px;
+    margin-left: 15vw;
+    margin-top: -6.5vh;
+}
+
+.judul-2 h1 {
+    margin-top: 2vh;
+    font-size: 49px;
+    font-weight: bolder;
+}
+
+.destination {
+    margin-left: 14vw;
+    margin-right: 14vw;
+    margin-top: 7vh;
+    width: 72vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.destination div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    padding: 8px;
+    background-color: white;
+    border: 2px white solid;
+    border-radius: 0.5rem;
+}
+
+.destination img {
+    width: 260px;
+    height: 160px;
+    border-radius: 0.5rem;
+}
+
+.destination ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.destination ul li {
+    width: 150px;
+    list-style-type: none;
+    margin-top: 2.4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.destination ul li button {
+    margin-right: 0.3vw;
+    width: 100px;
+    height: 27px;
+    border: white;
+    border-radius: 0.3rem;
+    background-color: #0ba876;
+    color: #f3f5f9;
+    cursor: pointer;
+}
+
+.destination ul li p a {
+    margin-right: 3.8vw;
+}
+
+.destination ul li a {
+    text-decoration: none;
+    color: #febb28;
+    margin-left: 5px;
+}
+
+.destination h3 {
+    margin-left: 0.5vh;
+    margin-top: 2.3vh;
+}
+
+.destination ul li i {
+    margin-right: 5px;
+}
+
+#tiga {
+    background-color: #f3f2f2be;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#kiri3 {
+    width: 50vw;
+    margin-left: 8vw;
+    margin-top: -6vh;
+}
+
+#kiri3 .judul-3 h4 {
+    position: relative;
+    font-size: 29px;
+    color: #0ba876;
+    margin-bottom: 2vh;
+}
+
+#kiri3 .judul-3 img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: 14vw;
+    margin-top: -6.7vh;
+}
+
+#kiri3 .judul-3 h1 {
+    font-size: 50px;
+    margin-bottom: 2vh;
+    margin-left: 0.3vw;
+    font-weight: bold;
+}
+
+#kiri3 .list {
+    margin-top: 7vh;
+    width: 34.5vw;
+}
+
+#kiri3 .list .oren {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    padding-left: 20px;
+    border-bottom: 2px #c5c4c4c3 solid;
+    cursor: pointer;
+}
+
+#kiri3 .list .oren:hover {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0.5rem;
+    border-bottom: 2px white solid;
+}
+
+#kiri3 .list .oren .i-oren {
+    background-color: #fe6c28;
+    color: #f3f5f9;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#kiri3 .list .oren .i-oren i {
+    font-size: 20px;
+}
+
+#kiri3 .list .oren .isio {
+    margin-left: 1vw;
+    margin-top: -1.7vh;
+}
+
+#kiri3 .list .oren .isio h5 {
+    margin-top: 1.5vh;
+    font-size: 16px;
+}
+
+#kiri3 .list .oren:hover .isio h5 {
+    margin-top: 0vh;
+    margin-left: 0.3vw;
+    font-size: 16px;
+}
+
+#kiri3 .list .oren .isio p {
+    font-size: 14px;
+    display: none;
+}
+
+#kiri3 .list .oren:hover .isio p {
+    font-size: 14px;
+    display: block;
+}
+
+#kiri3 .list .hijau {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    padding-left: 20px;
+    border-bottom: 2px #c5c4c4c3 solid;
+    cursor: pointer;
+}
+
+#kiri3 .list .hijau:hover {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0.5rem;
+    border-bottom: 2px white solid;
+}
+
+#kiri3 .list .hijau .i-ijo {
+    background-color: #107f58;
+    color: #f3f5f9;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#kiri3 .list .hijau .i-ijo i {
+    font-size: 20px;
+}
+
+#kiri3 .list .hijau .isio {
+    margin-left: 1vw;
+    margin-top: -1.7vh;
+}
+
+#kiri3 .list .hijau .isio h5 {
+    margin-top: 1.5vh;
+    font-size: 16px;
+}
+
+#kiri3 .list .hijau:hover .isio h5 {
+    margin-top: 0vh;
+    margin-left: 0.3vw;
+    font-size: 16px;
+}
+
+#kiri3 .list .hijau .isio p {
+    font-size: 14px;
+    display: none;
+}
+
+#kiri3 .list .hijau:hover .isio p {
+    font-size: 14px;
+    display: block;
+}
+
+#kiri3 .list .biru {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    padding-left: 20px;
+    border-bottom: 2px #c5c4c4c3 solid;
+    cursor: pointer;
+}
+
+#kiri3 .list .biru:hover {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0.5rem;
+    border-bottom: 2px white solid;
+}
+
+#kiri3 .list .biru .i-biru {
+    background-color: #0e2198;
+    color: #f3f5f9;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#kiri3 .list .biru .i-biru i {
+    font-size: 20px;
+}
+
+#kiri3 .list .biru .isio {
+    margin-left: 1vw;
+    margin-top: -1.7vh;
+}
+
+#kiri3 .list .biru .isio h5 {
+    margin-top: 1.5vh;
+    font-size: 16px;
+}
+
+#kiri3 .list .biru:hover .isio h5 {
+    margin-top: 0vh;
+    margin-left: 0.3vw;
+    font-size: 16px;
+}
+
+#kiri3 .list .biru .isio p {
+    font-size: 14px;
+    display: none;
+}
+
+#kiri3 .list .biru:hover .isio p {
+    font-size: 14px;
+    display: block;
+}
+
+#kanan3 {
+    width: 50vw;
+}
+
+#kanan3 img {
+    margin-left: 8vw;
+    margin-top: 3vh;
+    height: 83vh;
+}
+
+#empat {
+    background-color: #efeeee;
+}
+
+.judul-4 {
+    margin-left: 8vw;
+    margin-right: 8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.judul-4 .kiri4 h4 {
+    margin-top: 12vh;
+    position: relative;
+    font-size: 29px;
+    color: #0ba876;
+    margin-bottom: 2vh;
+}
+
+.judul-4 .kiri4 img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    margin-left: 11vw;
+    margin-top: -7.5vh;
+}
+
+.judul-4 .kiri4 h1 {
+    font-size: 50px;
+    margin-bottom: 2vh;
+    font-weight: bold;
+}
+
+.judul-4 .kanan4 ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.judul-4 .kanan4 ul li {
+    list-style-type: none;
+    cursor: pointer;
+    
+}
+
+.judul-4 .kanan4 ul li:hover {
+    color: #0ba876;
+}
+
+.judul-4 .kanan4 ul li i {
+    margin-top: 12vh;
+    font-size: 20px;
+    margin-left: 0.6vw;
+}
+
+.blog {
+    margin-left: 12vw;
+    margin-right: 12vw;
+    margin-top: 7vh;
+    padding-bottom: 7.6vh;
+    width: 76vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    padding: 7px;
+    padding-top: 0;
+    background-color: #efeeee;
+    border: 2px white solid;
+    border-radius: 0.5rem;
+}
+
+.blog .blogimg {
+    background-color: white;
+}
+
+.blog .blogimg img {
+    padding-top: 3px;
+    width: 254px;
+    height: 159px;
+    border-radius: 0.5rem;
+}
+
+.blog h4 {
+    margin-top: 2vh;
+    color: #0ba876;
+    margin-right: 15.8vw;
+    text-decoration: underline;
+}
+
+.blog h3 {
+    margin-left: 0.5vh;
+    margin-top: 2.3vh;
+}
+
+.blog ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog ul li {
+    width: 175px;
+    list-style-type: none;
+    margin-top: 2.2vh;
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #575656;
+}
+
+.blog ul li p {
+    color: black;
+}
+
+.blog ul li i {
+    margin-right: 5px;
+    color: #575656;
+    cursor: pointer;
+}
+
+#lima {
+    background-color: #f3f2f2be;
+    height: 100vh;
+}
+
+.judul-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.judul-5 h4 {
+    padding-top: 8vh;
+    color: #0ba876;
+    font-size: 24px;
+}
+
+.judul-5 img {
+    width: 22px;
+    height: 22px;
+    margin-right: 12.3vw;
+    margin-top: -6.4vh;
+}
+
+.judul-5 h1 {
+    margin-top: 3.5vh;
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+.terakhir {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    position: relative;
+}
+
+.terakhir .kiri5 .begron {
+    margin-left: -16.5vw;
+    width: 22vw;
+    height: 60vh;
+    background-color: #e8dbfc;
+    border-radius: 57px 56px 56px 56px;
+    -webkit-border-radius: 57px 56px 56px 56px;
+    -moz-border-radius: 57px 56px 56px 56px;
+    border: 4px solid #edd8d8;
+}
+
+.terakhir .kiri5 img {
+    margin-left: -18.3vw;
+    height: 65vh;
+    margin-top: -70vh;
+    position: absolute;
+}
+
+.terakhir .kiri5 .rate {
+    margin-left: -18.5vw;
+    margin-top: -38vh;
+    background-color: #febb28;
+    color: black;
+    border: #febb28;
+    width: 55px;
+    height: 55px;
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+}
+
+.terakhir .kiri5 .rate i {
+    margin-bottom: 0.6vh;
+}
+
+.terakhir .kiri5 .ig {
+    margin-left: -0.5vw;
+    margin-top: -7.5vh;
+    background-color: #107f58;
+    border: #107f58;
+    width: 55px;
+    height: 55px;
+    font-size: 27px;
+    color: #f3f5f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+}
+
+.terakhir .kanan5 .quote1 {
+    position: relative;
+    background-color: white;
+    width: 33vw;
+    border-radius: 0.5rem;
+    padding: 14px;
+    font-size: 20px;
+    right: -12vw;
+    top: -4vh;
+    cursor: pointer;
+}
+
+.terakhir .kanan5 .quote1:hover {
+    background-color: #0ba876;
+    color: #f3f5f9;
+}
+
+.terakhir .kanan5 .quote1 p i {
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+
+.terakhir .kanan5 .quote1 h5 {
+    font-size: 13px;
+    margin-top: 1vh;
+    margin-bottom: -19.2vh;
+}
+
+.terakhir .kanan5 .quote1 .circle1 {
+    position: relative;
+    border: 4px #c5c4c4a9 solid;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 13.2vh;
+    right: -36.4vw;
+}
+
+.terakhir .kanan5 .quote1:hover .circle1 {
+    border: 4px #0ba876 solid;
+}
+
+.terakhir .kanan5 .quote1 .garis1 {
+    position: relative;
+    border-right: 2px #c5c4c4a9 solid;
+    height: 16vh;
+    top: 13.2vh;
+    right: -6.5vw;
+}
+
+.terakhir .kanan5 .quote1:hover .garis1 {
+    border-right: 2px #0ba876 solid;
+}
+
+.terakhir .kanan5 .quote2 {
+    position: relative;
+    background-color: white;
+    width: 33vw;
+    border-radius: 0.5rem;
+    padding: 14px;
+    font-size: 20px;
+    right: 0.9vw;
+    cursor: pointer;
+}
+
+.terakhir .kanan5 .quote2:hover {
+    background-color: #0ba876;
+    color: #f3f5f9;
+}
+
+.terakhir .kanan5 .quote2 p i {
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+
+.terakhir .kanan5 .quote2 h5 {
+    font-size: 13px;
+    margin-top: 1vh;
+    margin-bottom: -19.2vh;
+}
+
+.terakhir .kanan5 .quote2 .circle2 {
+    position: relative;
+    border: 4px #c5c4c4a9 solid;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 11.2vh;
+    right: -49.3vw;
+}
+
+.terakhir .kanan5 .quote2:hover .circle2 {
+    border: 4px #0ba876 solid;
+}
+
+.terakhir .kanan5 .quote2 .garis2 {
+    position: relative;
+    border-right: 2px #c5c4c4a9 solid;
+    height: 16vh;
+    top: 11.2vh;
+    right: -19.4vw;
+}
+
+.terakhir .kanan5 .quote2:hover .garis2 {
+    border-right: 2px #0ba876 solid;
+}
+
+.terakhir .kanan5 .quote3 {
+    position: relative;
+    background-color: white;
+    width: 33vw;
+    border-radius: 0.5rem;
+    padding: 14px;
+    font-size: 20px;
+    right: -12vw;
+    top: 4vh;
+    cursor: pointer;
+}
+
+.terakhir .kanan5 .quote3:hover {
+    background-color: #0ba876;
+    color: #f3f5f9;
+}
+
+.terakhir .kanan5 .quote3 p i {
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+
+.terakhir .kanan5 .quote3 h5 {
+    font-size: 13px;
+    margin-top: 1vh;
+    margin-bottom: -12vh;
+}
+
+.terakhir .kanan5 .quote3 .circle3 {
+    position: relative;
+    border: 4px #c5c4c4a9 solid;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 2vh;
+    right: -36.4vw;
+}
+
+.terakhir .kanan5 .quote3:hover .circle3 {
+    border: 4px #0ba876 solid;
+}
+
+.terakhir .kanan5 .quote3 .garis3 {
+    position: relative;
+    border-right: 2px #c5c4c4a9 solid;
+    height: 9vh;
+    top: 2vh;
+    right: -6.5vw;
+}
+
+.terakhir .kanan5 .quote3:hover .garis3 {
+    border-right: 2px #0ba876 solid;
+}

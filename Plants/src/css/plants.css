@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+#container-1 {
+    width: 5vw;
+    height: 100vh;
+    position: relative;
+    color: white;
+    background-color: #282f3a;
+}
+
+#container-1 .plant {
+    width: 5vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    background-color: #59C937;
+}
+
+#container-1 .plant img {
+    width: 20px;
+    height: 20px;
+}
+
+#container-1 .sosmed {
+    width: 5vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 60vh;
+}
+
+#container-1 .sosmed ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#container-1 .sosmed ul li {
+    list-style-type: none;
+}
+
+#container-1 .sosmed ul li i {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.103);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+#container-1 .burger {
+    width: 5vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+#container-2 {
+    width: 50vw;
+    height: 100vh;
+    margin-left: 5vw;
+    position: absolute;
+    background-color: #f4f5f9;
+    top: 0;
+}
+
+#container-2 .main {
+    width: 41vw;
+    height: 80vh;
+    margin-left: 5vw;
+}
+
+#container-2 .main p {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#container-2 .nav1 ul {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#container-2 .nav1 ul li {
+    list-style-type: none;
+}
+
+#container-2 .main .judul {
+    height: 20vh;
+    margin-top: 8vh;
+}
+
+#container-2 .main .judul h1 {
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+#container-2 .main .desc h5 {
+    margin-top: 7vh;
+    margin-bottom: 5vh;
+    width: 30vw;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#container-2 .main .button button {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    background-color: rgb(89, 201, 55);
+    box-shadow: 0px 40px 100px 0px rgba(64,222,184,1);
+    -webkit-box-shadow: 0px 40px 100px 0px rgba(64,222,184,1);
+    -moz-box-shadow: 0px 40px 100px 0px rgba(64,222,184,1);
+    color: #f3f5f9;
+    border: #f4f5f9;
+}
+
+#container-2 .main .fungsi {
+    height: 32vh;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#container-2 .main .fungsi .aloevera {
+    width: 15vw;
+    height: 15vh;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    font-size: x-small;
+}
+
+#container-2 .main .fungsi .aloevera h3 {
+    margin-bottom: 3vh;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 900;
+}
+
+#container-2 .main .fungsi .homedecor {
+    width: 15vw;
+    height: 15vh;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    font-size: x-small;
+}
+
+#container-2 .main .fungsi .homedecor h3 {
+    margin-bottom: 3vh;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+#container-2 .tengah .tgl {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    right: 6px;
+    top: 50vh;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#container-2 .tengah img {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    right: -100px;
+    bottom: 25vh;
+    box-shadow: -20px 40px 140px 0px rgba(64,222,184,1);
+    -webkit-box-shadow: -20px 40px 140px 0px rgba(64,222,184,1);
+    -moz-box-shadow: -20px 40px 140px 0px rgba(64,222,184,1);
+    border-right:25px solid #59C937;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    z-index: 9999;
+}
+
+#container-2 .tengah .ikon {
+    position: absolute;
+    right: -6.5vw;
+    top: 65.8vh;
+    z-index: 9999;
+}
+
+#container-2 .tengah .ikon i {
+    color: #f4f5f9;
+    position: absolute;
+    font-size: 12px;
+    z-index: 9999;
+}
+
+#container-3 {
+    width: 45vw;
+    height: 100vh;
+    background-image: url(../../resource/img/bgkanan.jpeg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#container-3 .nav2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 4vw;
+    margin-right: 3vw;
+    font-family: Calibri, sans-serif;
+    font-weight: bold;
+}
+
+#container-3 .nav2 .noim {
+    width: 30vh;
+    height: 10vh;
+}
+
+#container-3 .nav2 .noim ul {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#container-3 .nav2 .noim ul li {
+    list-style-type: none;
+}
+
+#container-3 .nav2 .noim ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#container-3 .nav2 .im img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+#container-3 .circle {
+    width: 120px;
+    height: 120px;
+    border: 3px #f3f5f9 solid;
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-3 .circle .play {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #59C937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-3 .circle .play i {
+    color: #f4f5f9;
+}
