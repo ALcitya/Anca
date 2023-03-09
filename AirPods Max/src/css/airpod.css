@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffa68a;
+    color: white;
+}
+
+main {
+    display: flex;
+}
+
+#container1 {
+    width: 90vw;
+    margin-left: 3vw;
+}
+
+.nav {
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ikon {
+    width: 8vw;
+    display: flex;
+    align-items: center;
+}
+
+.ikon i {
+    font-size: 45px;
+}
+
+.nav-atas {
+    width: 82vw;
+}
+
+.nav-atas ul {
+    padding: 0 27vw 1vh 1.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-atas ul li {
+    list-style-type: none;
+}
+
+.nav-atas ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.main {
+    display: flex;
+}
+
+.satu {
+    width: 45vw;
+}
+
+.button {
+    margin-top: 4vh;
+}
+
+.button button {
+    width: 16.5vw;
+    height: 7vh;
+    font-size: 28px;
+    background-color: #eaa491;
+    color: white;
+    border-radius: 8px;
+}
+
+.desc {
+    width: 23vw;
+    margin-top: 6vh;
+}
+
+.color {
+    margin-top: 6vh;
+}
+
+.column {
+    width: 17vw;
+    padding: 7px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.red {
+    width: 30px;
+    height: 30px;
+    background-color: #fd3f3f;
+    border-radius: 50%;
+}
+
+.green {
+    width: 30px;
+    height: 30px;
+    background-color: #4cbe79;
+    border-radius: 50%;
+}
+
+.black {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.column1 {
+    width: 17.58vw;
+    padding: 7px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.warna {
+    width: 9.682vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.greens {
+    width: 30px;
+    height: 30px;
+    background-color: #9bda90;
+    border-radius: 50%;
+}
+
+.white {
+    width: 30px;
+    height: 30px;
+    background-color: #f7f7f7;
+    border-radius: 50%;
+}
+
+.buy {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buy button {
+    width: 3.5vw;
+    height: 3.5vh;
+    color: #ffa68a;
+    font-weight: 600;
+    border: white;
+    border-radius: 3px;
+}
+
+.perso {
+    width: 17.5vw;
+    margin-top: 1.5vh;
+}
+
+.center {
+    font-size: 15px;
+    margin: 1vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.engra {
+    height: 10vh;
+    margin: 1.2vh 0;
+    padding: 0 0.5vw 0vh 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px white solid;
+    border-radius: 11px;
+}
+
+.descr {
+    width: 10vw;
+}
+
+.descr .judul p {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.descr .isi p {
+    font-size: 9.5px;
+}
+
+.free p {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.engra1 {
+    height: 10vh;
+    margin: 1.2vh 0;
+    padding: 0 0.5vw 0vh 1vw;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px white solid;
+    border-radius: 11px;
+}
+
+#container2 {
+    width: 10vw;
+    height: 100vh;
+    background-color: #fbbaa6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bar {
+    height: 10.3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar i {
+    font-size: 23px;
+    margin: 0 1px;
+}
+
+.sosmed {
+    margin-top: 64.5vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sosmed h2 {
+    margin: 1.5vh 0;
+}
