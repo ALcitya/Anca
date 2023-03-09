@@ -5,7 +5,8 @@
 }
 
 body {
-    background-color: #ffa68a;
+    background: url(../../resource/img/njajal.jpg);
+    background-size: cover;
     color: white;
 }
 
