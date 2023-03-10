@@ -248,3 +248,83 @@ main {
 .sosmed h2 {
     margin: 1.5vh 0;
 }
+
+.dua {
+    width: 45vw;
+}
+
+.img img {
+    width: 280px;
+    height: 370px;
+    right: 17.6vw;
+    top: 19vh;
+    rotate: 25deg;
+    position: absolute;
+}
+
+.box {
+    margin-left: 29.5vw;
+    margin-top: 64.6vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.what {
+    font-size: 13px;
+}
+
+.pojok {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gmbr {
+    margin: 0 1.5vw 0 0.3vw;
+}
+
+.gmbr img {
+    width: 70px;
+    height: 120px;
+    /* position: absolute; */
+}
+
+.line {
+    height: 83px;
+    margin: 0 1vw 0 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chevron1 {
+    margin-right: 0.2vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chevron1 div {
+    background-color: white;
+    width: 2.5px;
+    height: 77.6px;
+    margin-top: -11px;
+}
+
+.chevron2 {
+    margin-left: 0.2vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chevron2 div {
+    background-color: white;
+    width: 2.05px;
+    height: 77.6px;
+    margin-top: -11px;
+}
