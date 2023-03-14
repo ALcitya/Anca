@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#satu {
+    margin-left: 9vw;
+    margin-right: 9vw;
+}
+
+nav {
+    height: 12vh;
+    margin-left: 0.2vw;
+    margin-right: 0.2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.busi {
+    font-size: 28.5px;
+    font-family: 'MuseoModerno', cursive;
+}
+
+.home {
+    margin-right: 8vw;
+}
+
+.home ul {
+    width: 26vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home ul li {
+    list-style-type: none;
+}
+
+.home ul li:hover a {
+    text-decoration: underline;
+}
+
+.home ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.butcont button {
+    width: 8vw;
+    height: 5vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: white;
+    border: black;
+    border-radius: 15px;
+}
+
+.boost {
+    margin-top: 4vh;
+}
+
+.boost h1 {
+    font-size: 68px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.your {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.your p {
+    width: 35vw;
+    font-size: 13.8px;
+    margin-right: 4.1vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+.direc {
+    margin-top: 4.5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.touch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25.5vw;
+}
+
+.bla button {
+    width: 11.5vw;
+    height: 8vh;
+    background-color: black;
+    border: black;
+    color: white;
+    border-radius: 3px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.whit button {
+    width: 11.5vw;
+    height: 8vh;
+    background-color: transparent;
+    border: 1.9px black solid;
+    border-radius: 3px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.acomp {
+    margin-top: 10vh;
+    width: 24vw;
+}
+
+.acomp h4 {
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.two img {
+    width: 470px;
+    border-radius: 15px;
+}
+
+.plus {
+    margin-top: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plus div {
+    width: 5vw;
+}
+
+.plus h4 {
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.plus p {
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.three {
+   width: 11vw; 
+   height: 50vh;
+   border: 1.7px black solid;
+   border-radius: 100px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+} 
+
+.sosmed {
+    height: 21vh;
+    display:  flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sosmed button {
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sosmed i {
+    color: white;
+    font-size: 15px;
+}
+
+.scrol {
+    height: 9.5vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scrol p {
+    rotate: 90deg;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.chevron {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line {
+    width: 2.25px;
+    height: 25px;
+    background-color: black;
+}
+
+.ik {
+    bottom: 1vh;
+    position: absolute;
+}
+
+.brand {
+    margin-top: 6.5vh;
+}
+
+.brand ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 3.5vh;
+}
+
+.brand ul li {
+    list-style-type: none
+}
+
+.brand img {
+    width: 7vw;
+    height: 5vh;
+}
+
+#dua {
+    background-color: #f6f7fb;
+}
+
+.our {
+    margin-left: 9vw;
+    margin-right: 9vw;
+    padding-top: 21.5vh;
+}
+
+.our h1 {
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.job {
+    margin-left: 9vw;
+    margin-right: 9vw;
+    margin-top: 6vh;
+    padding-bottom: 23vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.square {
+    width: 25vw;
+    height: 37.5vh;
+    padding: 30px;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+}
+
+.nomor {
+    width: 55px;
+    height: 55px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.jujob {
+    margin-top: 4vh;
+    font-size: 19px;
+}
+
+.desc {
+    margin-top: 3vh;
+    font-size: 13px;
+}
+
+#tiga {
+    background-color: #f6f7fb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    width: 35vw;
+    margin-left: 9vw;
+    padding-top: 10vh;
+    padding-bottom: 40vh;
+}
+
+.wehelp {
+    font-size: 29.2px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15vh;
+}
+
+.provide {
+    width: 29vw;
+    margin-top: 4vh;
+    font-size: 13.4px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.list {
+    margin-top: 4.1vh;
+    margin-left: 2.3vw;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.learn button {
+    width: 11.6vw;
+    height: 8.5vh;
+    margin-top: 3.5vh;
+    background-color: black;
+    color: white;
+    border: black;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.photo {
+    margin-right: 9vw;
+    padding-top: 16.7vh;
+}
+
+.tisa img {
+    width: 36vw;
+    position: relative;
+}
+
+.tidu img {
+    width: 26.5vw;
+    right: 8.5vw;
+    bottom: 31.5vh;
+    position: relative;
+    z-index: 99;
+}
+
+#empat {
+    margin-left: 9vw;
+    margin-right: 9vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foto {
+    padding-top: 10vh;
+    padding-bottom: 27.8vh;
+    width: 46vw;
+    position: relative;
+}
+
+.emsa img {
+    width: 31.4vw;
+    border-radius: 20px;
+}
+
+.emdu img {
+    width: 26.3vw;
+    position: absolute;
+    border-radius: 20px;
+    z-index: 99;
+    left: 14.5vw;
+    bottom: 9vh;
+}
+
+.teks {
+    font-family: 'Poppins', sans-serif;
+}
+
+.usemar {
+    width: 37vw;
+    font-size: 31.4px;
+}
+
+.withmar {
+    width: 29vw;
+    font-size: 14.5px;
+    margin-top: 2vh;
+}
+
+.lermor button {
+    width: 12.2vw;
+    height: 8.3vh;
+    margin-top: 4.9vh;
+    background-color: black;
+    color: white;
+    border: black;
+    border-radius: 5px;
+    font-size: 16px;
+}
