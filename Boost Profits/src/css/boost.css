@@ -417,3 +417,295 @@ nav {
     border-radius: 5px;
     font-size: 16px;
 }
+
+#lima {
+    background-color: #f6f7fb;
+}
+
+.juma {
+    margin-left: 9vw;
+    margin-right: 9vw;
+    padding-top: 30.5vh;
+    font-size: 31.2px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.people {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 9vw;
+    margin-right: 9vw;
+    margin-top: 6.3vh;
+    padding-bottom: 15vh;
+}
+
+.pebu {
+    width: 315px;
+    padding: 12.5px 0;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.pebu img {
+    width: 287px;
+    height: 287px;
+    border-radius: 15px;
+}
+
+.busim {
+    width: 255px;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.busim p {
+    font-size: 12.5px;
+    margin-top: 0.8vh;
+    padding-bottom: 12px;
+}
+
+#enam {
+    background-color: #f6f7fb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photoe {
+    margin-left: 9vw;
+    padding-top: 13vh;
+    padding-bottom: 18vh;
+    display: flex;
+}
+
+.potomas {
+    width: 32vw;
+    height: 69vh;
+    background-color: black;
+    position: absolute;
+    border-radius: 15px;
+}
+
+.photoe img {
+    width: 32vw;
+    border-radius: 15px;
+    position: relative;
+    left: 0.7vw;
+    top: 1.5vh;
+}
+
+.descri {
+    width: 39.8vw;
+    margin-right: 9vw;
+    margin-bottom: 5vh;
+}
+
+.quote i {
+    font-size: 85px;
+    color: #a5a5a5;
+}
+
+.buti {
+    width: 34vw;
+    margin-top: 2.3vh;
+    font-size: 13.7px;
+    color: #a5a5a5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.kely {
+    margin-top: 4vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.kelyen p {
+    font-size: 16.1px;
+} 
+
+.ikonche {
+    width: 8.8vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.abuone {
+    width: 40px;
+    height: 40px;
+    background-color: #a5a5a5;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abuone i {
+    font-size: 15px;
+}
+
+.abutwo {
+    width: 40px;
+    height: 40px;
+    background-color: #707070;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abutwo i {
+    font-size: 15px;
+}
+
+#tujuh {
+    padding-top: 13.2vh;
+    padding-bottom: 26.5vh;
+    background-color: #f6f7fb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.subcr {
+    margin-left: 9vw;
+    font-size: 32.5px;
+}
+
+.bio {
+    height: 19.3vh;
+    margin-right: 9vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    width: 39.8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first {
+    width: 18.2vw;
+    padding-bottom: 1.3vh;
+    border-bottom: 2px #a5a5a5 solid;
+    color: #a5a5a5;
+}
+
+.email {
+    width: 39.8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.emad {
+    width: 18.2vw;
+    padding-bottom: 1.3vh;
+    border-bottom: 2px #a5a5a5 solid;
+    color: #a5a5a5;
+}
+
+.sabkreb button {
+    width: 18.2vw;
+    height: 8.3vh;
+    font-size: 17px;
+    margin-bottom: 1.5vh;
+    background-color: black;
+    color: #a5a5a5;
+    border: black;
+    border-radius: 5px;
+}
+
+#delapan {
+    padding-top: 6.5vh;
+    padding-bottom: 7vh;
+    margin-left: 9vw;
+    margin-right: 9vw;
+}
+
+.terakhir {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.kotak-1 {
+    width: 20vw;
+}
+
+.kotak-1 p {
+    font-size: 13px;
+    margin-top: 3vh;
+}
+
+.kotak-1 ul {
+    width: 8.5vw;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kotak-1 ul li {
+    list-style-type: none;
+}
+
+.kotak-1 ul li button {
+    width: 28.5px;
+    height: 28.5px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    border: black;
+}
+
+.kotak-1 ul li button i {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kotake {
+    width: 53vw;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.kotak h5 {
+    font-size: 14px;
+}
+
+.kotak ul {
+    margin-top: 4.5vh;
+}
+
+.kotak ul li {
+    font-size: 13px;
+    list-style-type: none;
+    padding-bottom: 1.6vh;
+}
