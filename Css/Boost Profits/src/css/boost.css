@@ -59,6 +59,7 @@ nav {
     color: white;
     border: black;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 .boost {
@@ -107,6 +108,7 @@ nav {
     border-radius: 3px;
     font-size: 17px;
     font-family: 'Poppins', sans-serif;
+    cursor: pointer;
 }
 
 .whit button {
@@ -117,6 +119,7 @@ nav {
     border-radius: 3px;
     font-size: 17px;
     font-family: 'Poppins', sans-serif;
+    cursor: pointer;
 }
 
 .acomp {
@@ -183,6 +186,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .sosmed i {
@@ -343,6 +347,7 @@ nav {
     border-radius: 5px;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
+    cursor: pointer;
 }
 
 .photo {
@@ -416,6 +421,7 @@ nav {
     border: black;
     border-radius: 5px;
     font-size: 16px;
+    cursor: pointer;
 }
 
 #lima {
@@ -605,13 +611,6 @@ nav {
     align-items: center;
 }
 
-.first {
-    width: 18.2vw;
-    padding-bottom: 1.3vh;
-    border-bottom: 2px #a5a5a5 solid;
-    color: #a5a5a5;
-}
-
 .email {
     width: 39.8vw;
     display: flex;
@@ -619,10 +618,17 @@ nav {
     align-items: center;
 }
 
-.emad {
+input {
     width: 18.2vw;
+    height: 6vh;
+    outline: none;
+    border: none;
+    background-color: transparent;
     padding-bottom: 1.3vh;
     border-bottom: 2px #a5a5a5 solid;
+}
+
+input::placeholder {
     color: #a5a5a5;
 }
 
@@ -635,6 +641,7 @@ nav {
     color: #a5a5a5;
     border: black;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 #delapan {
