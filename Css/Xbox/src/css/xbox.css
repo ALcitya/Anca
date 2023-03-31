@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500&family=Red+Hat+Display:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 42px 45px;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.micro i {
+    font-size: 32px;
+    color: #e9e9e9;
+}
+
+.xbox {
+    padding-top: 5.5px;
+}
+
+.xbox img {
+    width: 93px;
+}
+
+.menu {
+    margin-right: 7.6rem;
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    gap: 45px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #d2d2d2;
+}
+
+.menu li:hover {
+    color: black;
+    border-bottom: 1.5px #e6e6e6 solid;
+}
+
+.menu i {
+    color: #32aa8b;
+    font-size: 9px;
+    margin-left: 5px;
+}
+
+input {
+    width: 87%;
+    outline: none;
+    border: none;
+}
+
+input::placeholder {
+    color: #e6e6e6;
+}
+
+.search {
+    padding-bottom: 3px;
+    border-bottom: 1.5px #e6e6e6 solid;
+    margin-left: 5rem;
+}
+
+.search i {
+    color: black;
+}
+
+.profil {
+    width: 43px;
+    aspect-ratio: 1/1;
+    background-color: #363636;
+    color: white;
+    font-size: 13px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    padding: 55px 130px 40px 130px;
+    display: flex;
+}
+
+.leftside {
+    width: 50%;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.judul {
+    margin-top: 18px;
+}
+
+.judul h1 {
+    font-size: 65px;
+    color: #333333;
+    line-height: 1;
+}
+
+.desc {
+    width: 70%;
+    margin-top: 18.5px;
+    color: #b5b5b5;
+}
+
+.desc p {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.desc b {
+    color: #646464;
+}
+
+.learn {
+    margin-top: 33px;
+}
+
+.learn button {
+    padding: 15.7px 30px;
+    background-color: #0f7c11;
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+.rightside {
+    width: 50%;
+}
+
+.pes img {
+    width: 100%;
+}
+
+footer {
+    padding: 42px 45px 0 45px;
+}
+
+.futer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.chev {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.chev i {
+    width: 29px;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9e9e9;
+    color: white;
+    font-size: 11px;
+}
+
+.chev i:hover {
+    background-color: #0f7c11;
+}
+
+.game {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #333333;
+    border-radius: 40px 40px 0 0;
+    margin-left: 50px;
+}
+
+.game img {
+    width: 77px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bonder, .xdesign, .minikref {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0 49.5px;
+}
+
+.bonder, .xdesign {
+    border-right: 2px #484848 solid;
+}
+
+.descgame {
+    line-height: 1.5;
+}
+
+.descgame h4 {
+    font-size: 14px;
+    color: white;
+}
+
+.descgame p {
+    font-size: 13px;
+    color: #686868;
+}
+
+.descgame button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 9px;
+}
+
+.descgame button i {
+    font-size: 8px;
+}
+
+.desim {
+    border: 3px #09af85 solid;
+    border-radius: 50%;
+    border-left: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desim div {
+    width: 25.5px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: #f9b22eda;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desim div i {
+    font-size: 8px;
+    color: white;
+}
+
+.lab {
+    rotate: -90deg;
+    color: #e7e7e7;
+}
+
+@media only screen and (max-width:764px) {
+    nav {
+        padding: 25px 30px;
+    }
+    .micro, .menu {
+        display: none;
+    }
+    input {
+        width: 49%;
+        height: 20px;
+    }
+    .search {
+        width: 53%;
+        margin-left: 87px;
+    }
+    .search i {
+        margin-left: 29px;
+    }
+    .profil {
+        width: 50px;
+    }
+    main {
+        padding: 25px 30px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .rightside {
+        width: 100%;
+    }
+    .pes img {
+        width: 70%;
+    }
+    .leftside {
+        width: 100%;
+    }
+    .desc {
+        width: 100%;
+    }
+    footer {
+        padding: 0 30px 25px 30px;
+    }
+    .chev {
+        display: none;
+    }
+    .game {
+        width: 100%;
+        margin-left: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        background-color: transparent;
+        gap: 5px;
+    }
+    .bonder, .xdesign, .minikref {
+        width: 100%;
+        padding: 15px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #333333;
+        border-radius: 20px;
+    }
+    .bonder, .xdesign {
+        border-right: none;
+    }
+    .descgame {
+        width: 40%;
+        line-height: normal;
+    }
+    .lab {
+        display: none;
+    }
+}
