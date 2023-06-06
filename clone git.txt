@@ -1,0 +1,113 @@
+PS D:\materi baru
+> git clone https://github.com/jihannkn/vanilla.git
+Cloning into 'vanilla'...
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 4 (delta 0), pack-reused 0
+Receiving objects: 100% (4/4), done.
+
+PS D:\materi baru\vanilla (main)
+> git remote -v (untuk melihat folder terhubung kemana)
+origin  https://github.com/jihannkn/vanilla.git (fetch)
+origin  https://github.com/jihannkn/vanilla.git (push)
+
+
+PS D:\materi baru\vanilla (main)
+> git remote add seno https://github.com/avnexcode/vanilla.git (untuk menghubungkan lngsg ke repo setelah add diberi nama untuk remote utama)
+
+PS D:\materi baru\vanilla (main)
+> git remote -v
+origin  https://github.com/jihannkn/vanilla.git (fetch)
+origin  https://github.com/jihannkn/vanilla.git (push)
+seno    https://github.com/avnexcode/vanilla.git (fetch)
+seno    https://github.com/avnexcode/vanilla.git (push)
+
+PS D:\materi baru\vanilla (main)
+> git log --all --decorate --oneline --graph (melihat posisi comit)
+* fa26145 (HEAD -> main, origin/main, origin/HEAD) asd
+
+PS D:\materi baru\vanilla (main)
+> git fetch seno (untuk menarik data dr repo utama)
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Total 4 (delta 0), reused 4 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), 280 bytes | 56.00 KiB/s, done.
+From https://github.com/avnexcode/vanilla
+ * [new branch]      main       -> seno/main
+
+PS D:\materi baru\vanilla (main)
+> git log --all --decorate --oneline --graph
+* 169cd33 (seno/main) asd
+* fa26145 (HEAD -> main, origin/main, origin/HEAD) asd
+
+PS D:\materi baru\vanilla (main)
+> git log --all --oneline --decorate --graph
+* 169cd33 (seno/main) asd
+* fa26145 (HEAD -> main, origin/main, origin/HEAD) asd
+
+PS D:\materi baru\vanilla (main)
+> git merge seno/main (untuk mengyatukan file dari repo utama ke folderku)
+Updating fa26145..169cd33
+Fast-forward
+ 0. Variable/01.js | 1 +
+ 1 file changed, 1 insertion(+)
+
+PS D:\materi baru\vanilla (main)
+> git push -u origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Writing objects: 100% (4/4), 300 bytes | 300.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/jihannkn/vanilla.git
+   fa26145..169cd33  main -> main
+branch 'main' set up to track 'origin/main'.
+
+PS D:\materi baru\vanilla (main)
+> git log --all --oneline --decorate --graph
+* 169cd33 (HEAD -> main, seno/main, origin/main, origin/HEAD) asd
+* fa26145 asd
+
+PS D:\materi baru\vanilla (main)
+>
+  git fetch seno
+remote: Enumerating objects: 14, done.
+remote: Counting objects: 100% (14/14), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 11 (delta 0), reused 11 (delta 0), pack-reused 0
+Unpacking objects: 100% (11/11), 1.17 KiB | 99.00 KiB/s, done.
+From https://github.com/avnexcode/vanilla
+   169cd33..cfd6297  main       -> seno/main
+
+PS D:\materi baru\vanilla (main)
+> git merge seno/main
+Updating 169cd33..cfd6297
+Fast-forward
+ 0. Variable/01.js               | 20 +++++++++++++++++++-
+ 1. Pop-up-box/01.js             |  0
+ node_modules/.package-lock.json |  6 ++++++
+ node_modules/.yarn-integrity    | 10 ++++++++++
+ package-lock.json               |  6 ++++++
+ package.json                    | 13 +++++++++++++
+ yarn.lock                       |  4 ++++
+ 7 files changed, 58 insertions(+), 1 deletion(-)
+ create mode 100644 1. Pop-up-box/01.js
+ create mode 100644 node_modules/.package-lock.json
+ create mode 100644 node_modules/.yarn-integrity
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 yarn.lock
+
+PS D:\materi baru\vanilla (main)
+> git push -u origin main
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (11/11), 1.19 KiB | 1.19 MiB/s, done.
+Total 11 (delta 0), reused 2 (delta 0), pack-reused 0
+To https://github.com/jihannkn/vanilla.git
+   169cd33..cfd6297  main -> main
+branch 'main' set up to track 'origin/main'.
+
+PS D:\materi baru\vanilla (main)
+>
