@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../assets/img/IMG_5366.jpeg);
+    background-size: cover;
+}
+
+section {
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Questrial', sans-serif;
+}
+
+#logen {
+    padding: 25px 50px;
+    border-radius: 13px;
+    background-color: rgba(255, 255, 255, 0.249);
+}
+
+.judul h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+.logak {
+    margin-top: 12px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    width: 235px;
+    height: 30px;
+    padding: 10px;
+    border: 1.5px #b9b8b8 solid;
+    outline: none;
+    border-radius: 5px;
+    background-color: #eeeeee;
+    font-size: 10px;
+}
+
+.email {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pass {
+    margin-top: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.havetro {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.sign {
+    margin-top: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign button {
+    padding: 9px 100px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.785);
+    cursor: pointer;
+}
+
+.sign button a {
+    color: #b9b8b8;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.orsign {
+    margin-top: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.akun {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.akun button {
+    padding: 2px 5px;
+    background-color: #eeeeeeb0;
+    border: 1.3px #b9b8b8b3 solid;
+    border-radius: 5px;
+}
+
+.akun button a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.donhave {
+    margin-top: 25px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.donhave p a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}

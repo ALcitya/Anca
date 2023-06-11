@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.leftside {
+    width: 30%;
+    padding: 188px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.leftside img {
+    width: 55%;
+}
+
+.leftside h1 {
+    font-size: 38px;
+    color: white;
+}
+
+.rightside {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login h1 {
+    font-size: 32px;
+}
+
+.login p {
+    margin-top: 18px;
+    font-size: 13px;
+    color: rgb(116, 114, 114);
+}
+
+.akun {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 13px;
+}
+
+.akun a {
+    text-decoration: none;
+    color: black;
+}
+
+.akun a i {
+    font-size: 20px;
+}
+
+.form {
+    margin-top: 18px;
+}
+
+input {
+    width: 290px;
+    height: 30px;
+    padding: 10px;
+    border: 1.2px #c3c2c2 solid;
+    outline: none;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+input:hover {
+    border: 1.2px black solid;
+}
+
+.pass {
+    margin-top: 10px;
+}
+
+.lognow {
+    margin-top: 25px;
+}
+
+.lognow button {
+    padding: 7px 119px;
+    border: none;
+    border-radius: 4px;
+    background-color: red;
+    cursor: pointer;
+}
+
+.lognow button a {
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+}
+
+.or {
+    margin-top: 7px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.or div {
+    width: 75px;
+    height: 0.6px;
+    background-color: #c3c2c2a9;
+}
+
+.reg {
+    margin-top: 7px;
+}
+
+.reg button {
+    padding: 7px 86px;
+    border: none;
+    border-radius: 4px;
+    background-color: black;
+    cursor: pointer;
+}
+
+.reg button a {
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+}
+
+.forpas {
+    margin-top: 30px;
+}
+
+.forpas a {
+    text-decoration: none;
+    font-size: 11px;
+    color: rgb(116, 114, 114);
+}
+
+.forpas a:hover {
+    text-decoration: underline;
+}

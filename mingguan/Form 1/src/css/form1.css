@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+}
+
+.kiri {
+    width: 40%;
+    padding: 60px 80px 60px 115px;
+}
+
+.form {
+    padding: 35px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1.7px black solid;
+    border-radius: 7px;
+}
+
+.judul {
+    width: 35%;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px #b9b8b8 solid;
+    font-family: 'Mukta', sans-serif;
+}
+
+.em {
+    margin-top: 30px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.email {
+    font-size: 12px;
+}
+
+input {
+    width: 205px;
+    height: 24px;
+    padding: 6px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #eeeeee;
+    font-size: 10px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.butem {
+    margin-top: 4px;
+}
+
+.pass {
+    margin-top: 10px;
+}
+
+.password {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+}
+
+.butpas {
+    margin-top: 4px;
+}
+
+.forpas {
+    margin-top: 2px;
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    font-family: 'Mukta', sans-serif;
+}
+
+.login {
+    margin-top: 20px;
+}
+
+.login button {
+    padding: 8px 85px;
+    font-size: 11px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    background-color: #2196f3;
+    cursor: pointer;
+}
+
+.login button a {
+    text-decoration: none;
+    color: white;
+}
+
+.sign {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signwith {
+    font-size: 11px;
+    font-family: 'Mukta', sans-serif;
+}
+
+.gugel {
+    margin-top: 5px;
+}
+
+.gugel button {
+    padding: 6px 25px;
+    font-size: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d9d9d9;
+}
+
+.gugel button a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.twit {
+    margin-top: 5px;
+}
+
+.twit button {
+    padding: 6px 31px;
+    font-size: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d9d9d9;
+}
+
+.twit button a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.signup {
+    margin-top: 35px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.signup p a {
+    text-decoration: none;
+}
+
+.kanan {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kanan img {
+    width: 75%;
+    margin-top: 20px;
+}

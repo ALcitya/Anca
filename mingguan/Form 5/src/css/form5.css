@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../assets/img/riyott.png);
+    background-size: cover;
+}
+
+section {
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lexend', sans-serif;
+}
+
+.riyot {
+    padding: 40px 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.913);
+}
+
+.logo img {
+    width: 150px;
+}
+
+.logcre {
+    width: 230px;
+    margin-top: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logcre h2 {
+    font-size: 12px;
+}
+
+.logcre a {
+    text-decoration: none;
+    font-size: 11px;
+    color: white;
+}
+
+.form {
+    margin-top: 15px;
+}
+
+.form input {
+    width: 231px;
+    height: 32px;
+    padding: 10px;
+    border: 1.7px #c3c2c2 solid;
+    outline: none;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+.form input:hover {
+    border: 1.7px black solid;
+}
+
+.pas {
+    margin-top: 6px;
+}
+
+.remfor {
+    width: 230px;
+    margin-top: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.rimem {
+    display: flex;
+    align-items: center;
+}
+
+.remfor label {
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+.forpas a {
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.akun {
+    width: 200px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.akun button {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1.2px black solid;
+}
+
+.akun button a {
+    text-decoration: none;
+    color: black;
+}
+
+.conti {
+    margin-top: 26px;
+}
+
+.conti button {
+    padding: 9px 58px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}

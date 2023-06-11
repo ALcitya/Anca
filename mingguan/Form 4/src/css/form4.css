@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    font-family: 'Alata', sans-serif;
+}
+
+.kiri {
+    width: 40%;
+}
+
+.kiri img {
+    width: 75%;
+}
+
+.kanan {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.judul h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.akun {
+    margin-top: 15px;
+}
+
+.akun button {
+    padding: 6px 15px;
+    border: 1.2px #c3c2c2 solid;
+    border-radius: 6px;
+    background-color: transparent;
+}
+
+.akun button:hover {
+    border: 1.2px black dotted;
+    background-color: #8ca7c8;
+}
+
+.akun button a {
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+}
+
+.akun button a i {
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.oruse {
+    margin-top: 17px;
+}
+
+.oruse p {
+    font-size: 12px;
+}
+
+.form {
+    margin-top: 10px;
+}
+
+.form input {
+    width: 300px;
+    height: 35px;
+    padding: 10px;
+    border: 1.2px #c3c2c2 solid;
+    outline: none;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.form input:hover {
+    border: 1.2px black solid;
+}
+
+.pass {
+    margin-top: 10px;
+}
+
+.cekbok {
+    width: 290px;
+    margin-top: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rimemi {
+    display: flex;
+    align-items: center;
+}
+
+.rimemi, input[type="checkbox"] {
+    accent-color: #8ca7c8;
+  }
+
+.cekbok label {
+    margin-left: 5px;
+    font-size: 11px;
+}
+
+.forpas a {
+    color: black;
+    font-size: 11px;
+}
+
+.logen {
+    margin-top: 20px;
+}
+
+.logen button {
+    padding: 8px 113px;
+    border: none;
+    border-radius: 4px;
+    background-color: #8ca7c8;
+    cursor: pointer;
+}
+
+.logen button:hover {
+    background-color: transparent;
+    border: 1.5px #8ca7c8 dotted;
+}
+
+.logen button a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+.logen button:hover a {
+    color: #8ca7c8;
+}
