@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins&family=Wix+Madefor+Display:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+}
+
+.leftside {
+    width: 50%;
+    padding: 122.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #212121;
+}
+
+.judul {
+    font-size: 30px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    color: white;
+}
+
+.but {
+    width: 180px;
+    margin-top: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.but button {
+    padding: 13px;
+    cursor: pointer;
+    background-color: #212121;
+    border-radius: 50%;
+    border: 2px solid #212121;
+    box-shadow: 6px 6px 10px rgba(0,0,0,1),
+    1px 1px 10px rgba(255, 255, 255, 0.6);
+    transition: 0.35s;
+}
+
+.but button:hover {
+    transform: scale(1.05);
+    box-shadow: 6px 6px 10px rgba(0,0,0,1),
+    1px 1px 10px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 10px rgba(0,0,0,1),
+    inset -1px -1px 5px rgba(255, 255, 255, 0.6);
+}
+
+.but button a {
+    text-decoration: none;
+    color: white
+}
+
+.form {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.form input {
+    width: 245px;
+    min-height: 45px;
+    color: #fff;
+    outline: none;
+    transition: 0.35s;
+    padding: 0px 7px;
+    background-color: #212121;
+    border-radius: 12px;
+    border: 2px solid #212121;
+    box-shadow: 6px 6px 10px rgba(0,0,0,1),
+    1px 1px 10px rgba(255, 255, 255, 0.6);
+}
+
+.form input::placeholder {
+    padding: 7px;
+    color: #999;
+    font-family: 'Poppins', sans-serif;
+}
+  
+.form input:hover {
+    box-shadow: 6px 6px 10px rgba(0,0,0,1),
+    1px 1px 10px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 10px rgba(0,0,0,1),
+    inset -1px -1px 5px rgba(255, 255, 255, 0.6);
+}
+
+.butsig {
+    margin-top: 17px;
+}
+
+.butsig button {
+    padding: 10px 35px;
+    cursor: pointer;
+    background-color: #212121;
+    border-radius: 12px;
+    border: 2px solid #212121;
+    box-shadow: 6px 6px 10px rgba(0,0,0,1),
+    1px 1px 10px rgba(255, 255, 255, 0.6);
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    transition: 0.35s;
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 2px;
+}
+
+.butsig button:hover {
+    box-shadow: 6px 6px 10px rgba(0,0,0,1),
+    1px 1px 10px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 10px rgba(0,0,0,1),
+    inset -1px -1px 5px rgba(255, 255, 255, 0.6);
+}
+
+.for {
+    margin-top: 25px;
+}
+
+.for a {
+    text-decoration: none;
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.for a:hover {
+    text-decoration: underline;
+}
+
+.rightside {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 20%;
+}
+
+.wel {
+    margin-top: 22px;
+}
+
+.wel h1 {
+    font-size: 40px;
+    font-family: 'Wix Madefor Display', sans-serif;
+}

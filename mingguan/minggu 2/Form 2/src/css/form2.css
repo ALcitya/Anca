@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5b7a8;
+}
+
+section {
+    display: flex;
+}
+
+.leftside {
+    width: 40%;
+    padding: 81px 50px 81px 80px;
+}
+
+.linke {
+    padding: 33px;
+    background-color: rgba(255, 255, 255, 0.527);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.lono {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 50%;
+}
+
+.logo img {
+    width: 70%;
+}
+
+.no {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.no a {
+    text-decoration: none;
+    font-size: 10px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.judul {
+    font-size: 39px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.but {
+    margin-top: 25px;
+}
+
+.but button {
+    padding: 7.5px 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: #1b62db;
+}
+
+.but button a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.but button a i {
+    margin-right: 5px;
+}
+
+.form {
+    margin-top: 28px;
+}
+
+.form label {
+    font-size: 11.5px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.form input {
+    width: 325px;
+    height: 33px;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: #eeeeee;
+    font-size: 10px;
+}
+
+.form input:hover {
+    border: 1.2px #1b62db solid;
+}
+
+.pas {
+    margin-top: 11px;
+}
+
+.lafo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lafo a {
+    text-decoration: none;
+    font-size: 11.5px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.butsi {
+    margin-top: 18px;
+}
+
+.butsi button {
+    padding: 9px 30px;
+    border: 1.5px black solid;
+    border-radius: 6px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+    cursor: pointer;
+}
+
+.butsi button:hover {
+    border: 1.5px black dotted;
+    background-color: transparent;
+    color: black;
+}
+
+.rightside {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.rightside img {
+    width: 95%;
+}
