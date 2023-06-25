@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    padding: 20px;
+    font-family: 'Jost', sans-serif;
+}
+#atas{
+    width: 100%;
+    display: flex;
+}
+.kiri{
+    width: 50%;
+    display:flex ;
+    align-items: center;
+    gap: 20px;
+}
+.kiri img{
+    width: 35%;
+}
+.kiri ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    padding-left: 15px;
+}
+.kiri ul li{
+    cursor: pointer;
+}
+.kiri ul li:hover a{
+    color: black;
+    font-weight: bolder;
+}
+.kiri ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.kanan{
+    width: 50%;
+}
+.kanan ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+}
+.kanan ul li{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kanan ul li:hover{
+    border: 2px black solid;
+    border-radius: 50px;
+}
+.kanan ul li:hover a{
+    color: black;
+}
+.kanan ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.kanan ul li a i{   
+    height: 40px;
+    width: 40px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+.bawah{
+    width: 100%;
+}
+.bawah ul{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    padding-top: 20px;
+}
+.bawah ul li{
+    /* border: 2px black solid; */
+    width: 10%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.bawah ul li:hover{
+    color: black;
+    border: 2px black solid;
+    border-radius: 20px;
+}
+.bawah ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.bawah ul li:hover a{
+    color: black ;
+    font-weight: bolder;
+}

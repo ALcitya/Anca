@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+#atas{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.kiri{
+    width: 50%;
+}
+
+.kiri ul{
+    width: 100%;
+    margin-left: 15px;
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.kiri ul li{
+    width: 20%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.kiri ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.kiri ul li:hover a {
+    text-decoration: underline;
+}
+
+.kiri ul li:nth-child(3) a{
+    font-size: 0.5rem;
+    font-weight: bolder;
+}
+
+.kiri ul li:nth-child(3):hover a{
+    text-decoration: none;
+}
+
+.kanan{
+    width: 50%;
+}
+
+.kanan ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    gap: 8px;
+}
+
+.kanan ul li{
+    width: 20%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.kanan ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.kanan ul li:hover a{
+    text-decoration: underline;
+}
+
+.kanan ul li a i{
+    margin-left: 5px;
+}
+
+#bawah{
+    width: 100%;
+}
+
+.gucci{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gucci img{
+    width: 25%;
+}
+
+.gucci ul{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.gucci ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 30px;
+    cursor: pointer;
+}
+
+.gucci ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.gucci ul li:hover a{
+    text-decoration: underline;
+}

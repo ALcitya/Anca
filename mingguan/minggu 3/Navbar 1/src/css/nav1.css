@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#atas{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.kiri{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 65%;
+    border-radius: 20px;
+    padding: 7px;
+}
+.search i{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search input{
+    padding-left: 5px;
+    border: none;
+    outline: none;
+    width: 90%;
+}
+
+.search input::placeholder{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.tengah{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.kanan{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.kanan ul{
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.kanan ul li a{
+    text-decoration: none;
+}
+.kanan ul li a i{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: white;
+}
+.kanan ul li:hover a i{
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+}
+#bawah{
+    width: 100%;
+}
+.wah{
+    width: 100%;
+    padding: 20px;
+}
+.wah ul{
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+    list-style-type: none;
+    gap: 10px;
+}
+.wah ul li{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /* border: 2px black solid; */
+    height: 40px;
+    border-radius: 10px;
+}
+.wah ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.wah ul li:hover{
+    background-color: black;
+}
+.wah ul li:hover a{
+    font-weight: bolder;
+    color: white;
+}

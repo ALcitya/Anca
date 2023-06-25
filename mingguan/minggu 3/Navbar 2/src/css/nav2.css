@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    font-family: 'Lexend Peta', sans-serif;
+}
+#atas{
+    width: 100%;
+    display: flex;
+    background-color: #d5d6d8;
+}
+.kiri{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.kiri ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+}
+.kiri ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    cursor: pointer;
+}
+.kiri ul li a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #084d45;
+    font-size: 11px;
+}
+.kiri ul li:hover a{
+    color: orangered;
+}
+.tengah{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tengah img{
+    width: 100%;
+}
+.kanan{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.kanan ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 33px;
+}
+.kanan ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 50px;
+}
+.kanan ul li a{
+    text-decoration: none;
+    color: #084d45;
+    font-size: 11px;
+}
+.kanan ul li:nth-child(1) a{
+    display: flex;
+    gap: 10px;
+}
+.kanan ul li:hover a{
+    color: orangered;
+}
