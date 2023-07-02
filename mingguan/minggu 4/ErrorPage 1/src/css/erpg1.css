@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../assets/img/IMG_6521.jpg);
+    background-size: cover;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.look {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+.empt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 210px;
+    color: white;
+}
+
+.nol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nol img {
+    position: absolute;
+    width: 13%;
+    top: 220px;
+}
+
+.go {
+    margin-top: 20px;
+}
+
+.go a button {
+    width: 130px;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #0e1129;
+    cursor: pointer;
+}
+
+.go a button:hover {
+    border: 1.5px white solid;
+    background-color: transparent;
+    color: white;
+}

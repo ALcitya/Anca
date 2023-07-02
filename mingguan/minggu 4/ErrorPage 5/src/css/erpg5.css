@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@700&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f1e1;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 18px;
+}
+
+.kiri {
+    width: 45%;
+    padding-left: 230px;
+    padding-bottom: 50px;
+}
+
+.emp {
+    font-size: 110px;
+    color: #3c290f;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.ops h1 {
+    font-size: 55px;
+    font-family: 'Varela Round', sans-serif;
+    color: #3c290f;
+}
+
+.ops div {
+    margin-top: 10px;
+    width: 127px;
+    height: 3px;
+    background-color: #ee431d;
+}
+
+.ok {
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.homb {
+    margin-top: 28px;
+}
+
+.homb a button {
+    width: 105px;
+    height: 36px;
+    border: 1.5px #e3412f solid;
+    background-color: transparent;
+    border-radius: 30px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    color: #3c290f;
+    cursor: pointer;
+}
+
+.homb a button:hover {
+    border: 1.5px #e3412f dotted;
+    background-color: #e3412f;
+    color: #f8f1e1;
+}
+
+.kanan {
+    width: 55%;
+}
+
+.ime {
+    margin-top: 20px;
+}
+
+.ime img {
+    width: 80%;
+}
