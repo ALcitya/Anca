@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Lora:ital,wght@1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.atas {
+    width: 100%;
+    padding: 35px 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+    border-top: 1.8px black solid;
+    border-bottom: 1.8px black solid;
+    font-family: 'Lora', serif;
+    font-size: 12px;
+}
+
+.kiri, .kanan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.kiri h2 {
+    margin-bottom: 8px;
+}
+
+.kiri ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.kiri ul li {
+    list-style: none;
+}
+
+.kiri ul li a {
+    color: black;
+}
+
+.kiri ul li a:hover {
+    text-decoration: none;
+}
+
+.one {
+    margin-bottom: 8px;
+}
+
+.tengah {
+    width: 10%;
+    margin-bottom: 30px;
+}
+
+.tengah img {
+    width: 100%;
+}
+
+.kanan h2 {
+    margin-bottom: 8px;
+}
+
+.kanan ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.kanan ul li {
+    list-style: none;
+}
+
+.kanan ul li a {
+    color: black;
+}
+
+.kanan ul li a:hover {
+    text-decoration: none;
+}
+
+.bawah {
+    width: 100%;
+    padding: 35px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-bottom: 1.8px black solid;
+}
+
+.satu {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.user {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.sub {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.sub input {
+    width: 60%;
+    height: 28px;
+    background-color: transparent;
+    border: 2px black solid;
+    margin: 7px 0;
+    outline: none;
+    color: black;
+    font-size: 11px;
+    font-weight: 500;
+    padding-left: 9px;
+    font-family: 'Lora', serif;
+}
+
+sub a {
+    text-decoration: none;
+}
+
+.sub a button {
+    width: 50px;
+    height: 28px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+
+.dua {
+    border-left: 2px black solid;
+    padding-left: 10px;
+}
+
+.dua h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.dua ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.dua ul li {
+    list-style: none;
+}
+
+.dua ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Lora', serif;
+    font-size: 12px;
+}
+
+.dua ul li a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}

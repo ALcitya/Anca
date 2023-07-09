@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 45px;
+    background-color: #cacaca;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.satu {
+    width: 30%;
+}
+
+.logo img {
+    width: 50%;
+}
+
+.desc {
+    width: 72%;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.dua {
+    padding-top: 10px;
+}
+
+.dua h2 {
+    font-size: 18px;
+}
+
+.dua ul {
+    margin-top: 8px;
+}
+
+.dua ul li {
+    list-style: none;
+}
+
+.dua ul li a {
+    font-size: 12.5px;
+    color: black;
+    text-decoration: none;
+}
+
+.dua ul li a:hover {
+    font-weight: bolder;
+    color: #ed1c24;
+}
+
+.tiga {
+    padding-top: 10px;
+}
+
+.tiga h2 {
+    font-size: 18px;
+}
+
+.tiga ul {
+    margin-top: 8px;
+}
+
+.tiga ul li {
+    list-style: none;
+}
+
+.tiga ul li a {
+    font-size: 12.5px;
+    color: black;
+    text-decoration: none;
+}
+
+.tiga ul li a:hover {
+    font-weight: bolder;
+    color: #ed1c24;
+}
+
+.empat {
+    padding-top: 10px;
+}
+
+.empat h2 {
+    font-size: 18px;
+}
+
+.empat ul {
+    margin-top: 8px;
+}
+
+.empat ul li {
+    list-style: none;
+}
+
+.empat ul li a {
+    font-size: 12.5px;
+    color: black;
+    text-decoration: none;
+}
+
+.empat ul li a:hover {
+    font-weight: bolder;
+    color: #ed1c24;
+}
+
+.lima {
+    padding-top: 10px;
+}
+
+.lima h2 {
+    font-size: 18px;
+}
+
+.lima ul {
+    margin-top: 8px;
+}
+
+.lima ul li {
+    list-style: none;
+}
+
+.lima ul li a {
+    font-size: 12.5px;
+    color: black;
+    text-decoration: none;
+}
+
+.lima ul li a:hover {
+    font-weight: bolder;
+    color: #ed1c24;
+}
+
+.lima ul li a i {
+    margin-right: 3px;
+}

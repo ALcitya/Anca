@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.atas {
+    width: 93%;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    border-bottom: 1.8px black solid;
+    font-family: 'Lora', serif;
+    font-size: 12px;
+}
+
+.logo {
+    width: 7%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.tentang ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.tentang ul li {
+    list-style: none;
+}
+
+.tentang ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Marcellus', serif;
+    font-weight: bold;
+    font-size: 15.5px;
+}
+
+.tentang ul li a:hover {
+    color: #ffc700;
+}
+
+.sosmed ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.sosmed ul li {
+    list-style: none;
+}
+
+.sosmed ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.bawah {
+    padding: 22px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+}
+
+.user {
+    font-family: 'Marcellus', serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub input {
+    width: 120%;
+    height: 38px;
+    background-color: transparent;
+    border: 1.7px black solid;
+    border-radius: 8px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin: 7px 0;
+    outline: none;
+    color: black;
+    font-size: 11px;
+    font-weight: 500;
+    padding-left: 13px;
+    font-family: 'Marcellus', serif;
+    font-weight: bold;
+}
+
+.sub a {
+    text-decoration: none;
+}
+
+.sub a button {
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e50001;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.sub a button i {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
