@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    margin: auto;
+    margin-top: 110px;
+    padding: 20px;
+    width: 25%;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+
+.curren {
+    margin-bottom: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.curren img {
+    width: 17%;
+}
+
+.play {
+    padding: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.play:hover {
+    cursor: pointer;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.ikon {
+    margin-right: 17px
+}
+
+.imeg {
+    margin-right: 15px;
+    width: 22%;
+}
+
+.imeg img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.titel p {
+    margin-top: 3px;
+    font-size: 13px;
+}

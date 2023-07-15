@@ -3,11 +3,120 @@
     padding: 0;
     box-sizing: border-box;
 }
-section{
-    width: 100%;
-}
-.bungkus{
-    width: 50%;
-    border: 2px black solid;
+
+section {
+    margin: auto;
+    margin-top: 120px;
+    padding: 10px;
+    width: 27%;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 17px 3px rgba(0,0,0,0.66);
+    -webkit-box-shadow: 0px 0px 17px 3px rgba(0,0,0,0.66);
+    -moz-box-shadow: 0px 0px 17px 3px rgba(0,0,0,0.66);
 }
 
+.close {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close button {
+    width: 39px;
+    height: 29px;
+    background-color: transparent;
+    border: 2px rgba(205, 203, 203, 0.804) solid;
+    border-radius: 5px;
+}
+
+.close:hover button {
+    background-color: rgba(255, 0, 0, 0.768);
+    border: none;
+    cursor: pointer;
+}
+
+.close button i {
+    font-size: 11px;
+}
+
+.close:hover button i {
+    color: white;
+}
+
+.check {
+    margin-top: -17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    background-color: #e2feee;
+}
+
+.titel {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: #066e29;
+}
+
+.para {
+    margin-top: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.para p {  
+    width: 88%;
+    text-align: center;
+}
+
+.hisbut {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hisbut button {
+    width: 250px;
+    height: 35px;
+    background-color: #1aa06d;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+.hisbut:hover button {
+    color: #242525;
+    border: 1px solid #D1D5DB;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.track {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.track button {
+    width: 250px;
+    height: 35px;
+    color: #242525;
+    border-radius: 5px;
+    border: 1px solid #D1D5DB;
+    background-color: #fff;
+}
