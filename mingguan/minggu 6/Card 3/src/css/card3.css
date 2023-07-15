@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+}
+.bungkus{
+    width: 50%;
+    border: 2px black solid;
+}
+
