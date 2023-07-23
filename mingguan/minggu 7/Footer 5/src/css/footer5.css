@@ -59,6 +59,11 @@ section {
     cursor: pointer;
 }
 
+.dua ul li a {
+    text-decoration: none;
+    color: black;
+}
+
 .tiga {
     margin-top: 20px;
     width: 20%;
