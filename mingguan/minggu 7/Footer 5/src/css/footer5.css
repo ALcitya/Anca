@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Alegreya SC', serif;
+}
+
+section {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.satu {
+    width: 10%;
+    margin-left: 20px;
+}
+
+.satu img {
+    width: 100%;
+}
+
+.bungkus {
+    margin-top: 20px;
+    margin-left: 130px;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dua {
+    width: 30%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.dua ul {
+    padding-top: 8px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.dua ul li {
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.dua ul li:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.tiga {
+    margin-top: 20px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.tiga ul {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.tiga ul li:hover {
+    background-color: transparent;
+    border: 1.7px black solid;
+}
+
+.tiga ul li {
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.tiga ul li i {
+    color: white;
+}
+
+.tiga ul li:hover i {
+    color: black;
+}

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sen', sans-serif;
+}
+
+section {
+    padding: 40px 30px;
+    background-color: #b2cc6d;
+}
+
+.atas {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1.7px black solid;
+}
+
+.logo {
+    width: 40%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.about {
+    margin-top: 25px;
+    display: flex;
+    gap: 35px;
+}
+
+.us ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.us ul li {
+    list-style: none;
+}
+
+.us ul li a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.us ul li:hover a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.right {
+    width: 28%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.right label {
+    font-size: 12.5px;
+}
+
+.sub {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.sub input {
+    width: 60%;
+    height: 39px;
+    background-color: transparent;
+    border: 1.5px black solid;
+    margin: 7px 0;
+    outline: none;
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+    padding-left: 9px;
+    font-family: 'Sen', sans-serif;
+}
+
+.sub a button {
+    width: 70px;
+    height: 39px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 12px;
+    font-family: 'Sen', sans-serif;
+    cursor: pointer;
+}
+
+.bawah {
+    padding: 17px 0;
+}
+
+.bawah1 ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bawah1 ul li {
+    list-style: none;
+}
+
+.bawah1 ul li:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.bawah1 ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.bawah2 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bawah2 ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.bawah2 ul li {
+    list-style: none;
+}
+
+.bawah2 ul li a {
+    text-decoration: none;
+    color: black
+}

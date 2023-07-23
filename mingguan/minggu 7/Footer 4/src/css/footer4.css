@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanuman&family=Rozha+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 30px 50px;
+    background-color: #fddd77;
+}
+
+.atas {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px black solid;
+}
+
+.kiri {
+    width: 25%;
+}
+
+.kiri h3 {
+    font-size: 26px;
+    font-family: 'Rozha One', serif;
+}
+
+.kanan {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.sub {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sub input {
+    width: 90%;
+    height: 35px;
+    background-color: transparent;
+    border: 1.9px black solid;
+    border-right: none;
+    margin: 7px 0;
+    outline: none;
+    color: black;
+    font-size: 10px;
+    font-weight: 500;
+    padding-left: 9px;
+    font-family: 'Hanuman', serif;
+}
+
+.sub a button {
+    width: 70px;
+    height: 35px;
+    background-color: transparent;
+    color: black;
+    border: 1.9px black solid;
+    border-left: none;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Hanuman', serif;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sosmed {
+    margin-top: 10px;
+}
+
+.sosmed ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sosmed ul li {
+    list-style: none;
+}
+
+.sosmed ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.bawah {
+    padding: 20px 5px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Hanuman', serif;
+}
+
+.satu {
+    width: 18%;
+}
+
+.satu img {
+    width: 100%;
+}
+
+.dua {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.dua h2 {
+    font-size: 16px;
+}
+
+.dua ul {
+    margin-top: 10px;
+}
+
+.dua ul li {
+    list-style: none;
+}
+
+.dua ul li a {
+    font-size: 14px;
+    color: black;
+}
+
+.dua ul li:hover a {
+    text-decoration: none;
+    font-weight: bold;
+}

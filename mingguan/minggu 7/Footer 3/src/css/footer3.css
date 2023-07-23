@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ysabeau', sans-serif;
+}
+
+section {
+    padding: 30px 40px;
+}
+
+.satu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.satu div {
+    width: 35%;
+    height: 1.4px;
+    background-color: black;
+}
+
+.satu img {
+    width: 10%;
+}
+
+.dua {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 230px;
+}
+
+.kiri ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.kiri ul li {
+    list-style: none;
+}
+
+.kiri ul li:hover {
+    font-weight: bold;
+}
+
+.kiri ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.tengah {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sosmed ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+
+.sosmed ul li {
+    list-style: none;
+}
+
+.sosmed ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.kosong {
+    width: 1.9px;
+    height: 38px;
+    background-color: black;
+}
+
+.week {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.week p {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.sub {
+    width: 140%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sub input {
+    width: 90%;
+    height: 35px;
+    background-color: transparent;
+    border: 1.9px black solid;
+    border-right: none;
+    margin: 7px 0;
+    outline: none;
+    color: black;
+    font-size: 10px;
+    font-weight: 500;
+    padding-left: 9px;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+.sub a button {
+    width: 70px;
+    height: 35px;
+    background-color: transparent;
+    color: black;
+    border: 1.9px black solid;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Ysabeau', sans-serif;
+    cursor: pointer;
+}
+
+.kanan ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.kanan ul li {
+    list-style: none;
+}
+
+.kanan ul li:hover {
+    font-weight: bold;
+}
+
+.kanan ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
